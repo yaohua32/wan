@@ -1,5 +1,7 @@
 # WAN
 
+**Note:** The WAN method has been greatly improved by selecting compactly supported RBFs (CSRBFs) as test functions. One can refer to our recent work **[ParticleWNN](https://arxiv.org/pdf/2305.12433)** and its implementation through link: [https://github.com/yaohua32/Physics-Driven-Deep-Learning-for-PDEs](https://github.com/yaohua32/Physics-Driven-Deep-Learning-for-PDEs) 
+
 ## A brief introduction to WAN
 Weak Adversarial Networks (WAN) method is a deep learning based method for solving high dimensional partial differential equations. It is a mesh-free method which bases on the weak form of solutions for PDEs. In brief, it converts the problem of finding the weak solution of PDEs into an operator norm minimization problem induced from the weak formulation. Then, a GAN-like algorithm was designed for solving this problem by parameterizing the trial function and the test function as the primal and adversarial networks respectively.
 
